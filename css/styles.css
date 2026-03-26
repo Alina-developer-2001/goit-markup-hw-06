@@ -74,7 +74,7 @@ section {
 }
 
 header {
-  padding: 16px 0;
+  padding: 16px;
   box-shadow:
     0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -110,7 +110,7 @@ header .container {
   width: 24px;
   height: 24px;
   border: none;
-  background-color: #ffffff;
+  background-color: transparent;
   padding: 0;
   cursor: pointer;
 }
@@ -146,7 +146,7 @@ header .container {
   }
 
   header .container {
-    padding: 24px 15px;
+    /* padding: 24px 15px; */
     justify-content: space-between;
     align-items: center;
   }
@@ -197,8 +197,9 @@ header .container {
     display: block;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -224,6 +225,8 @@ header .container {
 
   .address-list-link {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
 
@@ -295,6 +298,7 @@ header .container {
 /* Media hero */
 @media screen and (min-width: 768px) {
   .hero-section {
+    padding: 112px;
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/hero_images/hero-image-tablet.jpg);
@@ -304,7 +308,6 @@ header .container {
     font-size: 56px;
   }
   .hero-section .container {
-    padding: 112px;
     gap: 36px;
   }
 
@@ -322,6 +325,7 @@ header .container {
 
 @media screen and (min-width: 1158px) {
   .hero-section {
+    padding: 188px;
     max-width: 1440px;
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -330,8 +334,6 @@ header .container {
 
   .hero-section .container {
     gap: 48px;
-
-    padding: 188px;
   }
 }
 
@@ -450,6 +452,9 @@ header .container {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+  .advanntages-text {
+    font-weight: 400;
   }
 
   .our-advantages-section {
@@ -598,6 +603,7 @@ header .container {
 }
 
 .portfolio-foto {
+ 
   width: 100%;
 }
 
@@ -615,7 +621,6 @@ header .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 48px;
 }
 
@@ -632,7 +637,7 @@ header .container {
 
 .portfolio-list-item {
   position: relative;
-  flex-basis: 288px;
+  flex-basis: 100%
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
