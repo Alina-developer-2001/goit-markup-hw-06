@@ -35,6 +35,7 @@ span {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 button {
@@ -697,6 +698,7 @@ header .container {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 72px;
   }
 
   .portfolio-list-item {
