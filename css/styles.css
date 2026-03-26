@@ -123,7 +123,7 @@ header .container {
 
 .navigation {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   justify-content: flex-start;
 }
 
@@ -131,7 +131,7 @@ header .container {
   display: none;
 }
 
-.header-address {
+.address {
   display: none;
 }
 
@@ -186,6 +186,10 @@ header .container {
   .navigation-list-link:not(.current):hover,
   .navigation-list-link:not(.current):focus {
     color: #404bbf;
+  }
+
+  .address {
+    display: inline-block;
   }
 
   .address-list {
@@ -427,6 +431,9 @@ header .container {
   .advantages-container {
     align-items: flex-start;
   }
+  .advantages-list-item-title {
+    text-align: left;
+  }
 }
 
 /* 2nd breaking point */
@@ -460,6 +467,9 @@ header .container {
 
   .our-advantages-section {
     padding: 120px 0;
+  }
+  .advantages-list-item-title {
+    text-align: center;
   }
 }
 
@@ -764,6 +774,12 @@ header .container {
   align-items: center;
 }
 
+.footer .container4 {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
 .footer-logo {
   display: block;
   margin: 0 auto;
@@ -920,7 +936,6 @@ header .container {
   }
 
   .footer .container4 {
-    display: flex;
     gap: 24px;
   }
 
