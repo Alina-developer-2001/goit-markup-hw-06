@@ -296,7 +296,6 @@ header .container {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/hero_images/hero-image-tablet@2x.jpg);
-    padding: 112px 136px;
   }
 }
 
@@ -477,7 +476,6 @@ header .container {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   overflow: hidden;
-  flex-basis: 264px;
 }
 
 .employee-foto {
