@@ -516,8 +516,8 @@ header .container {
 }
 
 .employee-foto {
-  max-width: 264px;
-  max-height: 260px;
+  width: 288px;
+  height: 280px;
 }
 
 .employee-name {
@@ -587,7 +587,7 @@ header .container {
 
   .team-list-item {
     flex-basis: calc((100% - 24px) / 2);
-    max-width: 264px;
+    /* max-width: 264px; */
   }
 }
 
@@ -615,6 +615,7 @@ header .container {
 
 .portfolio-foto {
   width: 100%;
+  object-fit: cover;
 }
 
 .portfolio-title {
@@ -936,6 +937,7 @@ header .container {
   }
 
   .footer .container4 {
+    flex-direction: row;
     gap: 24px;
   }
 
