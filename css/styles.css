@@ -749,7 +749,8 @@ header .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 96px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
   gap: 72px;
 }
 
@@ -954,14 +955,12 @@ header .container {
 
 /* 2nd breaking point */
 @media screen and (min-width: 1158px) {
-  footer {
-    padding: 100px;
-  }
   .footer .container {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
     max-width: 1158px;
   }
 
