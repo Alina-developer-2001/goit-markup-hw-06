@@ -513,8 +513,9 @@ header .container {
 }
 
 .employee-foto {
-  width: 288px;
-  height: 280px;
+  /* width: 288px;
+  height: 280px; */
+  object-fit: cover;
 }
 
 .employee-name {
