@@ -1276,18 +1276,35 @@ textarea::placeholder {
 /* Menu overlay */
 .menu-modal-overlay {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #ffffff;
   width: 100%;
   height: 100%;
+
   opacity: 0;
   pointer-events: none;
   padding: 24px 24px 40px 16px;
+}
+
+.menu-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+
+  padding: 24px 24px 40px 16px;
+  margin: 0 auto;
+}
+
+.menu-modal-container {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
 }
 
 @media (max-width: 767px) {
