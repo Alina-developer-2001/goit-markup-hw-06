@@ -100,10 +100,6 @@ header .container {
   color: #2e2f42;
 }
 
-.header-logo {
-  margin-right: 0;
-}
-
 .header-menu-button {
   display: flex;
   justify-content: center;
@@ -221,7 +217,6 @@ header .container {
 @media screen and (min-width: 1158px) {
   .navigation {
     gap: 76px;
-    margin-right: 0;
   }
 
   /* Address */
@@ -487,8 +482,6 @@ header .container {
   justify-content: center;
   align-items: center;
   gap: 72px;
-
-  max-width: 552px;
   margin: 0 auto;
 }
 
@@ -518,8 +511,6 @@ header .container {
 }
 
 .employee-foto {
-  /* width: 288px;
-  height: 280px; */
   object-fit: cover;
 }
 
@@ -649,7 +640,6 @@ header .container {
 }
 
 .portfolio-list-item {
-  position: relative;
   flex-basis: 100%;
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
