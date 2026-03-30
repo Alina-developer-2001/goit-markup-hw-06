@@ -575,7 +575,6 @@ header .container {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
-
     max-width: 552px;
   }
 
